@@ -33,8 +33,9 @@ class Product(models.Model):
         verbose_name = 'product'
         verbose_name_plural = 'products'
     
-     def __str__(self):
+    def __str__(self):
         return '{}'.format(self.name)
+        
         
     
     
